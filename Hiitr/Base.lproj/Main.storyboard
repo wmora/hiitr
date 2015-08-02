@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="30" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x8c-dq-1iY">
-                                <rect key="frame" x="178" y="250" width="244.5" height="119.5"/>
+                                <rect key="frame" x="245.5" y="250.5" width="109" height="119.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="100"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -31,12 +31,20 @@
                                     <action selector="controlButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ONd-rG-bWd"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Work" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0XV-yN-4xt">
+                                <rect key="frame" x="280" y="221" width="40" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="centerY" secondItem="x8c-dq-1iY" secondAttribute="centerY" constant="-10" id="74z-3F-5JL"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="W6H-ea-KKl" secondAttribute="bottom" constant="20" id="99P-WL-p1A"/>
                             <constraint firstAttribute="centerX" secondItem="W6H-ea-KKl" secondAttribute="centerX" constant="-0.5" id="Mpd-1q-Zia"/>
+                            <constraint firstItem="x8c-dq-1iY" firstAttribute="top" secondItem="0XV-yN-4xt" secondAttribute="bottom" constant="8" id="iR9-0V-3PG"/>
+                            <constraint firstItem="0XV-yN-4xt" firstAttribute="centerX" secondItem="x8c-dq-1iY" secondAttribute="centerX" constant="-1" id="sjq-wg-bFu"/>
                             <constraint firstAttribute="centerX" secondItem="x8c-dq-1iY" secondAttribute="centerX" id="xCj-zY-9wQ"/>
                         </constraints>
                     </view>
