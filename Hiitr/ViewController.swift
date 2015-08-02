@@ -20,8 +20,8 @@ class ViewController: UIViewController {
     }
 
     @IBAction func controlButtonPressed(sender: AnyObject) {
-        currentState = currentState == SessionState.Stopped ? SessionState.Started: SessionState.Stopped
-        controlButton.setTitle(currentState == SessionState.Stopped ? "Start" : "Stop", forState: UIControlState.Normal)
+        currentState = currentState == .Stopped ? .Started: .Stopped
+        controlButton.setTitle(currentState == .Stopped ? "Start" : "Stop", forState: UIControlState.Normal)
     }
 
 }
