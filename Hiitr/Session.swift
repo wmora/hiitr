@@ -35,7 +35,7 @@ class Session : NSObject {
         if (timer != nil) {
             timer?.invalidate()
         }
-        elapsedSeconds = -1
+        elapsedSeconds = -1 // An update is fired as soon as the timer is fired, so we can't start from 0
         currentMode = .Work
         timer = NSTimer.scheduledTimerWithTimeInterval(timerInterval, target: self, selector: "timerUpdate:", userInfo: nil, repeats: true)
         timer?.fire()
