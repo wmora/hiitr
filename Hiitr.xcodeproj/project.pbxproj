@@ -16,6 +16,7 @@
 		273C0AC51B6EA18A0019663E /* SessionState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273C0AC41B6EA18A0019663E /* SessionState.swift */; };
 		273C0AC71B6EA6010019663E /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273C0AC61B6EA6010019663E /* Session.swift */; };
 		27407AC51B6ECF67000F84C2 /* IntervalMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27407AC41B6ECF67000F84C2 /* IntervalMode.swift */; };
+		27407AC71B6ED4BA000F84C2 /* SessionEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27407AC61B6ED4BA000F84C2 /* SessionEvents.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		273C0AC41B6EA18A0019663E /* SessionState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionState.swift; sourceTree = "<group>"; };
 		273C0AC61B6EA6010019663E /* Session.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
 		27407AC41B6ECF67000F84C2 /* IntervalMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntervalMode.swift; sourceTree = "<group>"; };
+		27407AC61B6ED4BA000F84C2 /* SessionEvents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionEvents.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 				273C0AC41B6EA18A0019663E /* SessionState.swift */,
 				273C0AC61B6EA6010019663E /* Session.swift */,
 				27407AC41B6ECF67000F84C2 /* IntervalMode.swift */,
+				27407AC61B6ED4BA000F84C2 /* SessionEvents.swift */,
 			);
 			path = Hiitr;
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 				273C0AC71B6EA6010019663E /* Session.swift in Sources */,
 				273C0AC51B6EA18A0019663E /* SessionState.swift in Sources */,
 				27407AC51B6ECF67000F84C2 /* IntervalMode.swift in Sources */,
+				27407AC71B6ED4BA000F84C2 /* SessionEvents.swift in Sources */,
 				273C0AA11B6E80BD0019663E /* ViewController.swift in Sources */,
 				273C0A9F1B6E80BD0019663E /* AppDelegate.swift in Sources */,
 			);

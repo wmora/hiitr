@@ -8,13 +8,6 @@
 
 import Foundation
 
-protocol SessionEvents {
-    func sessionStarted()
-    func sessionUpdate(timeLeft: Int)
-    func sessionStopped()
-    func intervalModeChanged(newMode: IntervalMode)
-}
-
 class Session : NSObject {
     
     let workTime = 30
