@@ -10,16 +10,22 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    let stopped = "stopped"
+    let started = "started"
+    
+    @IBOutlet weak var controlButton: UIButton!
+    
+    var currentState: NSString?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        currentState = stopped
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func controlButtonPressed(sender: AnyObject) {
+        currentState = currentState!.isEqualToString(stopped) ? started: stopped
+        controlButton.setTitle(currentState!.isEqualToString(stopped) ? "Start" : "Stop", forState: UIControlState.Normal)
     }
-
 
 }
 

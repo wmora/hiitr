@@ -27,6 +27,9 @@
                                 <state key="normal" title="Start">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="controlButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ONd-rG-bWd"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -37,6 +40,9 @@
                             <constraint firstAttribute="centerX" secondItem="x8c-dq-1iY" secondAttribute="centerX" id="xCj-zY-9wQ"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="controlButton" destination="W6H-ea-KKl" id="vm4-w7-xQ6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
