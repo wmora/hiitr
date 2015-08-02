@@ -9,22 +9,19 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    let stopped = "stopped"
-    let started = "started"
     
     @IBOutlet weak var controlButton: UIButton!
     
-    var currentState: NSString?
+    var currentState: SessionState?
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        currentState = stopped
+        currentState = SessionState.Stopped
     }
 
     @IBAction func controlButtonPressed(sender: AnyObject) {
-        currentState = currentState!.isEqualToString(stopped) ? started: stopped
-        controlButton.setTitle(currentState!.isEqualToString(stopped) ? "Start" : "Stop", forState: UIControlState.Normal)
+        currentState = currentState == SessionState.Stopped ? SessionState.Started: SessionState.Stopped
+        controlButton.setTitle(currentState == SessionState.Stopped ? "Start" : "Stop", forState: UIControlState.Normal)
     }
 
 }
