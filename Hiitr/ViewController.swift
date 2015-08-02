@@ -12,6 +12,7 @@ class ViewController: UIViewController, SessionEvents {
     
     @IBOutlet weak var controlButton: UIButton!
     @IBOutlet weak var timerLabel: UILabel!
+    @IBOutlet weak var currentActivityLabel: UILabel!
     
     var currentState: SessionState
     var session: Session?
