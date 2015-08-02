@@ -41,14 +41,20 @@ class ViewController: UIViewController, SessionEvents {
     
     func sessionStarted() {
         updateTimerLabel()
+        intervalModeChanged(IntervalMode.Work)
     }
     
     func sessionStopped() {
         updateTimerLabel()
+        currentActivityLabel.text = ""
     }
     
     func sessionUpdate(timeLeft: Int) {
         timerLabel.text = "\(timeLeft)"
+    }
+    
+    func intervalModeChanged(newMode: IntervalMode) {
+        currentActivityLabel.text = newMode == .Work ? "Work!" : "Rest"
     }
 
 }
