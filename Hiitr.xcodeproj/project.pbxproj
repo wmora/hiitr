@@ -162,6 +162,7 @@
 		273C0A911B6E80BD0019663E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = nispok;
 				TargetAttributes = {
@@ -419,6 +420,7 @@
 				273C0ABA1B6E80BD0019663E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		273C0ABB1B6E80BD0019663E /* Build configuration list for PBXNativeTarget "HiitrTests" */ = {
 			isa = XCConfigurationList;
@@ -427,6 +429,7 @@
 				273C0ABD1B6E80BD0019663E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -17,7 +17,7 @@ class ViewController: UIViewController, SessionEvents {
     var currentState: SessionState
     var session: Session?
     
-    required init(coder aDecoder: NSCoder) {
+    required init?(coder aDecoder: NSCoder) {
         currentState = .Stopped
         super.init(coder: aDecoder)
         session = Session(delegate: self)
