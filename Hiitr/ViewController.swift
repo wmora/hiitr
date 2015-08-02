@@ -11,17 +11,22 @@ import UIKit
 class ViewController: UIViewController {
     
     @IBOutlet weak var controlButton: UIButton!
+    @IBOutlet weak var timerLabel: UILabel!
     
-    var currentState: SessionState?
+    var currentState: SessionState
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        currentState = SessionState.Stopped
+    required init(coder aDecoder: NSCoder) {
+        currentState = .Stopped
+        super.init(coder: aDecoder)
     }
 
     @IBAction func controlButtonPressed(sender: AnyObject) {
         currentState = currentState == .Stopped ? .Started: .Stopped
         controlButton.setTitle(currentState == .Stopped ? "Start" : "Stop", forState: UIControlState.Normal)
+    }
+    
+    func updateLabel() {
+        
     }
 
 }

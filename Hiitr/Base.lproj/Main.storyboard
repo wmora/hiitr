@@ -42,6 +42,7 @@
                     </view>
                     <connections>
                         <outlet property="controlButton" destination="W6H-ea-KKl" id="vm4-w7-xQ6"/>
+                        <outlet property="timerLabel" destination="x8c-dq-1iY" id="jG4-dw-lIh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
