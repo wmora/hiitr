@@ -179,7 +179,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 273C0A941B6E80BD0019663E /* Build configuration list for PBXProject "Hiitr" */;
+			buildConfigurationList = 273C0A941B6E80BD0019663E /* Build configuration list for PBXProject "HIITr" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -416,7 +416,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		273C0A941B6E80BD0019663E /* Build configuration list for PBXProject "Hiitr" */ = {
+		273C0A941B6E80BD0019663E /* Build configuration list for PBXProject "HIITr" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				273C0AB61B6E80BD0019663E /* Debug */,
