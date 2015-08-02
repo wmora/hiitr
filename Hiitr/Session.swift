@@ -40,13 +40,11 @@ class Session : NSObject {
         elapsedSeconds = 0
         timer?.fire()
         delegate?.sessionStarted()
-        print("session started")
     }
     
     func stop() {
         timer?.invalidate()
         delegate?.sessionStopped()
-        print("session stopped")
     }
     
     func timerUpdate(timer: NSTimer) {
