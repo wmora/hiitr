@@ -12,7 +12,6 @@
 		273C0AA41B6E80BD0019663E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 273C0AA21B6E80BD0019663E /* Main.storyboard */; };
 		273C0AA61B6E80BD0019663E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 273C0AA51B6E80BD0019663E /* Images.xcassets */; };
 		273C0AA91B6E80BD0019663E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 273C0AA71B6E80BD0019663E /* LaunchScreen.xib */; };
-		273C0AB51B6E80BD0019663E /* HiitrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273C0AB41B6E80BD0019663E /* HiitrTests.swift */; };
 		273C0AC51B6EA18A0019663E /* SessionState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273C0AC41B6EA18A0019663E /* SessionState.swift */; };
 		273C0AC71B6EA6010019663E /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273C0AC61B6EA6010019663E /* Session.swift */; };
 		27407AC51B6ECF67000F84C2 /* IntervalMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27407AC41B6ECF67000F84C2 /* IntervalMode.swift */; };
@@ -25,21 +24,20 @@
 			containerPortal = 273C0A911B6E80BD0019663E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 273C0A981B6E80BD0019663E;
-			remoteInfo = Hiitr;
+			remoteInfo = HIITr;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		273C0A991B6E80BD0019663E /* Hiitr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hiitr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		273C0A991B6E80BD0019663E /* HIITr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HIITr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		273C0A9D1B6E80BD0019663E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		273C0A9E1B6E80BD0019663E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		273C0AA01B6E80BD0019663E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		273C0AA31B6E80BD0019663E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		273C0AA51B6E80BD0019663E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		273C0AA81B6E80BD0019663E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		273C0AAE1B6E80BD0019663E /* HiitrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HiitrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		273C0AAE1B6E80BD0019663E /* HIITrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HIITrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		273C0AB31B6E80BD0019663E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		273C0AB41B6E80BD0019663E /* HiitrTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiitrTests.swift; sourceTree = "<group>"; };
 		273C0AC41B6EA18A0019663E /* SessionState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionState.swift; sourceTree = "<group>"; };
 		273C0AC61B6EA6010019663E /* Session.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
 		27407AC41B6ECF67000F84C2 /* IntervalMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntervalMode.swift; sourceTree = "<group>"; };
@@ -67,8 +65,8 @@
 		273C0A901B6E80BD0019663E = {
 			isa = PBXGroup;
 			children = (
-				273C0A9B1B6E80BD0019663E /* Hiitr */,
-				273C0AB11B6E80BD0019663E /* HiitrTests */,
+				273C0A9B1B6E80BD0019663E /* HIITr */,
+				273C0AB11B6E80BD0019663E /* HIITrTests */,
 				273C0A9A1B6E80BD0019663E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -76,13 +74,13 @@
 		273C0A9A1B6E80BD0019663E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				273C0A991B6E80BD0019663E /* Hiitr.app */,
-				273C0AAE1B6E80BD0019663E /* HiitrTests.xctest */,
+				273C0A991B6E80BD0019663E /* HIITr.app */,
+				273C0AAE1B6E80BD0019663E /* HIITrTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		273C0A9B1B6E80BD0019663E /* Hiitr */ = {
+		273C0A9B1B6E80BD0019663E /* HIITr */ = {
 			isa = PBXGroup;
 			children = (
 				273C0A9E1B6E80BD0019663E /* AppDelegate.swift */,
@@ -96,7 +94,7 @@
 				27407AC41B6ECF67000F84C2 /* IntervalMode.swift */,
 				27407AC61B6ED4BA000F84C2 /* SessionEvents.swift */,
 			);
-			path = Hiitr;
+			path = HIITr;
 			sourceTree = "<group>";
 		};
 		273C0A9C1B6E80BD0019663E /* Supporting Files */ = {
@@ -107,13 +105,12 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		273C0AB11B6E80BD0019663E /* HiitrTests */ = {
+		273C0AB11B6E80BD0019663E /* HIITrTests */ = {
 			isa = PBXGroup;
 			children = (
-				273C0AB41B6E80BD0019663E /* HiitrTests.swift */,
 				273C0AB21B6E80BD0019663E /* Supporting Files */,
 			);
-			path = HiitrTests;
+			path = HIITrTests;
 			sourceTree = "<group>";
 		};
 		273C0AB21B6E80BD0019663E /* Supporting Files */ = {
@@ -127,9 +124,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		273C0A981B6E80BD0019663E /* Hiitr */ = {
+		273C0A981B6E80BD0019663E /* HIITr */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 273C0AB81B6E80BD0019663E /* Build configuration list for PBXNativeTarget "Hiitr" */;
+			buildConfigurationList = 273C0AB81B6E80BD0019663E /* Build configuration list for PBXNativeTarget "HIITr" */;
 			buildPhases = (
 				273C0A951B6E80BD0019663E /* Sources */,
 				273C0A961B6E80BD0019663E /* Frameworks */,
@@ -139,14 +136,14 @@
 			);
 			dependencies = (
 			);
-			name = Hiitr;
-			productName = Hiitr;
-			productReference = 273C0A991B6E80BD0019663E /* Hiitr.app */;
+			name = HIITr;
+			productName = HIITr;
+			productReference = 273C0A991B6E80BD0019663E /* HIITr.app */;
 			productType = "com.apple.product-type.application";
 		};
-		273C0AAD1B6E80BD0019663E /* HiitrTests */ = {
+		273C0AAD1B6E80BD0019663E /* HIITrTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 273C0ABB1B6E80BD0019663E /* Build configuration list for PBXNativeTarget "HiitrTests" */;
+			buildConfigurationList = 273C0ABB1B6E80BD0019663E /* Build configuration list for PBXNativeTarget "HIITrTests" */;
 			buildPhases = (
 				273C0AAA1B6E80BD0019663E /* Sources */,
 				273C0AAB1B6E80BD0019663E /* Frameworks */,
@@ -157,9 +154,9 @@
 			dependencies = (
 				273C0AB01B6E80BD0019663E /* PBXTargetDependency */,
 			);
-			name = HiitrTests;
-			productName = HiitrTests;
-			productReference = 273C0AAE1B6E80BD0019663E /* HiitrTests.xctest */;
+			name = HIITrTests;
+			productName = HIITrTests;
+			productReference = 273C0AAE1B6E80BD0019663E /* HIITrTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -195,8 +192,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				273C0A981B6E80BD0019663E /* Hiitr */,
-				273C0AAD1B6E80BD0019663E /* HiitrTests */,
+				273C0A981B6E80BD0019663E /* HIITr */,
+				273C0AAD1B6E80BD0019663E /* HIITrTests */,
 			);
 		};
 /* End PBXProject section */
@@ -239,7 +236,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				273C0AB51B6E80BD0019663E /* HiitrTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,7 +244,7 @@
 /* Begin PBXTargetDependency section */
 		273C0AB01B6E80BD0019663E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 273C0A981B6E80BD0019663E /* Hiitr */;
+			target = 273C0A981B6E80BD0019663E /* HIITr */;
 			targetProxy = 273C0AAF1B6E80BD0019663E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -362,7 +358,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				INFOPLIST_FILE = Hiitr/Info.plist;
+				INFOPLIST_FILE = HIITr/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nispok.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -374,7 +370,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				INFOPLIST_FILE = Hiitr/Info.plist;
+				INFOPLIST_FILE = HIITr/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nispok.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -393,11 +389,11 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = HiitrTests/Info.plist;
+				INFOPLIST_FILE = HIITrTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nispok.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hiitr.app/Hiitr";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HIITr.app/HIITr";
 			};
 			name = Debug;
 		};
@@ -409,11 +405,11 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = HiitrTests/Info.plist;
+				INFOPLIST_FILE = HIITrTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nispok.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hiitr.app/Hiitr";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HIITr.app/HIITr";
 			};
 			name = Release;
 		};
@@ -429,7 +425,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		273C0AB81B6E80BD0019663E /* Build configuration list for PBXNativeTarget "Hiitr" */ = {
+		273C0AB81B6E80BD0019663E /* Build configuration list for PBXNativeTarget "HIITr" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				273C0AB91B6E80BD0019663E /* Debug */,
@@ -438,7 +434,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		273C0ABB1B6E80BD0019663E /* Build configuration list for PBXNativeTarget "HiitrTests" */ = {
+		273C0ABB1B6E80BD0019663E /* Build configuration list for PBXNativeTarget "HIITrTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				273C0ABC1B6E80BD0019663E /* Debug */,
